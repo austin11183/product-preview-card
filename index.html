@@ -1,0 +1,76 @@
+<!--
+ * @Author: austin11183 austin11183@gmail.com
+ * @Date: 2024-03-07 16:25:27
+ * @LastEditors: austin11183 austin11183@gmail.com
+ * @LastEditTime: 2024-03-13 20:41:38
+ * @FilePath: \product-preview-card\index.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800;9..144,900&family=Montserrat:wght@500;600;700;800;900&display=swap');
+  </style>
+</head>
+<body>
+  <!-- parent wrap 可以用<card-container> 外層的命名常見有container or wrap or wrapper -->
+  <!-- Parent Wrap-->
+  <div class="card-container">
+  <!-- Image Section-->
+    <div class="image-content">
+    </div>
+    <!-- Content Section-->
+    <div class="full-content">
+      <!-- Heading Section -->
+        <div class="top-content">
+          <h2>
+            PERFUMES
+          </h2>
+          <h1>
+            Gabrielle Essence Eau De Parfum
+          </h1>
+        </div>
+      <!-- Paragraph Section -->
+        <div class="paragraph">
+        <p>
+          A floral, solar and voluptuous interpretation composed by 
+          Olivier Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        </div>
+      <!-- Amount Section -->
+      <div class="amount">
+        <div class="correct-val">
+          <p>
+            $149.99
+          </p>
+        </div>
+        <div class="strikethrough-val">
+          <p>
+          $169.99
+          </p>
+        </div>
+      </div>
+      <!-- CTA Button-->
+        <button class="button">
+          <a href="">
+            <div class="button-pd">
+                <img src="./images/icon-cart.svg" alt="cart image">
+                <p> Add to Cart </p>
+            </div>
+          </a>
+        </button>
+      </div>
+  </div>
+</body>
+</html>
